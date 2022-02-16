@@ -921,7 +921,13 @@
   .select-text {
     margin-right: 0;
     margin-left: 10px;
+  }
+  .select-result-wrap .select-text  {
     color: var(--white);
+  }
+  .select-item {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
   }
   .select-arrow {
     border-top-color: var(--white);
