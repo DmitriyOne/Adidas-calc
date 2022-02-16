@@ -417,7 +417,6 @@
 .select-text {
   display: block;
   font-size: 18px;
-  font-weight: 600;
   color: var(--black-light);
   margin-right: 10px;
 }
@@ -464,7 +463,7 @@
   top: 50%;
   right: 20px;
   transform: translateY(-50%);
-  color: var(--blue);
+  color: var(--black-light);
 }
 
 .input-adidas-svg {
@@ -564,13 +563,6 @@
 .wallet__copy.active svg {
   display: none;
 }
-
-/* ATTRIBUTES */
-/* .price-of-one[data-price-one="BNB"],
-.price-of-one[data-price-one="BTC"],
-.price-of-one[data-price-one="ETH"] {
-  display: none;
-} */
 
 .price-of-one {
   display: none;
@@ -766,9 +758,6 @@
   .select-valuta-icon {
     width: 25px;
   }
-  .select-text {
-    font-weight: 500;
-  }
   .select-arrow {
     border: 8px solid transparent;
     border-top: 10px solid var(--blue);  
@@ -840,6 +829,7 @@
   }
   .section__banner {
     height: 55px;
+    border: none;
   }
   .banner-rotate {
     transform: rotate(356deg) translate(-15px, -23px);
@@ -935,9 +925,6 @@
   .section__calc .wrapper {
     flex-direction: column;
   }
-  .input-adidas-logo {
-    color: var(--white);
-  }
   .input-adidas-svg svg {
     fill: var(--white);
   }
@@ -992,6 +979,12 @@
 }
 
 @media only screen and (max-width: 520px) {
+  .section__intro .container {
+    align-items: flex-start;
+  }
+  .btn__intro {
+    max-width: 100%;
+  }
   .title {
     font-size: 28px;
   }
