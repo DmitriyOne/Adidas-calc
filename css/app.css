@@ -829,7 +829,6 @@
   }
   .section__banner {
     height: 55px;
-    border: none;
   }
   .banner-rotate {
     transform: rotate(356deg) translate(-15px, -23px);
