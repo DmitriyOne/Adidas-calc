@@ -98,7 +98,7 @@
 
 /* BANNER GREEN */
 .banner-green {
-  background-image: url('../img/banner-green.jpg');
+  background-image: url('../img/banner-green.jpeg');
 }
 
 /* BANNER WHITE */
@@ -108,7 +108,7 @@
 }
 
 .banner-white {
-  background-image: url('../img/banner-white.jpg');
+  background-image: url('../img/banner-white.jpeg');
 }
 
 /* BLOCK CALC */
@@ -145,7 +145,7 @@
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
-  background-image: url('../img/bg-dark.jpg');
+  background-image: url('../img/bg-dark.jpeg');
 }
 
 .calc__logo-adidas {
@@ -474,7 +474,7 @@
 
 /* BANNER BLACK */
 .banner-black {
-  background-image: url('../img/banner-black.jpg');
+  background-image: url('../img/banner-black.jpeg');
 }
 
 /* BLOCK VIDEO */

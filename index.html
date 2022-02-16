@@ -5,15 +5,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>NFT</title>
+  <title>Adidas</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./css/app.css">
+  <link rel="stylesheet" href="./css/app.min.css">
 </head>
 
 <body>
-
   <div class="root">
     <header class="header">
       <div class="header__row">
@@ -30,7 +29,6 @@
         </ul>
       </div>
     </header>
-
     <main>
       <section class="section__intro section-padding">
         <div class="container d-flex">
@@ -45,15 +43,12 @@
           </div>
         </div>
       </section>
-
       <section class="section__banner">
         <div class="banner__wrap banner-green"></div>
       </section>
-
       <section class="section__banner banner-rotate">
         <div class="banner__wrap banner-white"></div>
       </section>
-
       <section class="section__calc section-padding">
         <div class="calc__bg-green"></div>
         <div class="calc__bg-black"></div>
@@ -129,12 +124,12 @@
                 </div>
                 <div class="calc__inputs-wrap">
                   <div class="adidas-value-wrap">
-                    <input id="adidas-value" value="430" disabled class="calc__input input-color-blue" type="number">
+                    <input id="adidas-value" value="1290" disabled class="calc__input input-color-blue" type="number">
                     <span class="input-adidas-logo">
                       ADI$
                       <span class="input-adidas-svg">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30"
-                          preserveAspectRatio="xMidYMid meet" fill="#1e66d7" xmlns:v="https://vecta.io/nano">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" preserveAspectRatio="xMidYMid meet"
+                          fill="#1e66d7" xmlns:v="https://vecta.io/nano">
                           <path
                             d="M7.3 3C5.6 4 3.6 5.9 3 7c-1.3 2.4-1.8 2.5 7-.2 3-.9 7.5-2.1 10-2.6l4.5-.9-2.8-1.1C17.4.4 10.9.8 7.3 3zM17 7.9C10.1 10.1 1 14.7 1 16c0 .5 2.9-.5 6.4-2.1 4.4-2 8.7-3.2 13.6-3.6 5.8-.5 7-.9 6.8-2.2-.4-2.3-4.4-2.3-10.8-.2zm4.5 4.6c-5.9 1.7-19.9 8.4-19.1 9.3.4.3 2.7-.5 5.2-1.7 5.4-2.8 13.7-5.1 18-5.1 3.6 0 4.5-.6 3.7-2.6-.6-1.7-1.3-1.6-7.8.1zm0 6c-3.8 1.3-9 3.4-11.3 4.8l-4.4 2.5 2.3 1.6c3.2 2.2 10.6 2.1 14.6-.4 3.4-2 6.6-7.1 6.1-9.5-.2-1.1-1.7-.9-7.3 1z" />
                         </svg>
@@ -145,7 +140,7 @@
                 <div class="calc__text-wrap d-flex">
                   <div>
                     <span class="price-of-one active" data-price-one="BNB">
-                      1 BNB = 430 ADI$
+                      1 BNB = 1290 ADI$
                     </span>
                     <span class="price-of-one" data-price-one="BTC">
                       1 BTC = 44.1 ADI$
@@ -166,7 +161,7 @@
                 </label>
                 <input type="text" disabled class="calc__input calc__wallet-input" id="wallet"
                   value="223231234124124124123213123213123123121">
-                <span class="wallet__copy" onclick="copyValue()">
+                <button class="wallet__copy" onclick="copyValue()">
                   <svg viewBox=" 0 0 35 35" fill="#1E66D7" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M11.7578 0.109375C10.6982 0.396484 9.91895 1.29199 9.75488 2.41309C9.68652 2.87109 9.69336 2.94629 9.82324 3.18555C10.001 3.52734 10.3154 3.71191 10.7051 3.70508C11.2314 3.69824 11.5732 3.34961 11.6553 2.7207C11.7236 2.25586 11.9766 2.00977 12.4619 1.94824C12.6533 1.92773 16.4609 1.91406 20.918 1.92773C29.791 1.94824 29.1553 1.9209 29.4492 2.33789C29.5586 2.48145 29.5654 3.43164 29.5859 14.2939C29.5996 23.6592 29.5859 26.1475 29.5176 26.3594C29.415 26.667 29.0664 26.9336 28.7656 26.9336C28.5059 26.9336 28.0547 27.166 27.9522 27.3506C27.6992 27.8291 27.7539 28.2803 28.0957 28.6084C28.2666 28.7725 28.3691 28.8135 28.7314 28.834C29.8115 28.9023 30.8779 28.1846 31.3223 27.0908L31.4795 26.6943V14.458C31.4795 2.76855 31.4727 2.20801 31.3564 1.85938C31.1104 1.15527 30.4541 0.478516 29.7363 0.18457L29.3604 0.0341797L20.7471 0.0205078C13.3232 0.00683594 12.0791 0.0205078 11.7578 0.109375Z" />
@@ -174,7 +169,7 @@
                       d="M5.36621 6.27539C4.62793 6.52832 3.98535 7.15722 3.67773 7.90918L3.52051 8.30566V20.542C3.52051 32.2314 3.52734 32.792 3.64355 33.1406C3.88965 33.8447 4.5459 34.5215 5.26367 34.8154L5.63965 34.9658L14.2119 34.9863C23.5498 35.0068 23.2285 35.0137 23.8984 34.624C24.5615 34.2344 25.0879 33.4893 25.2246 32.7373C25.2725 32.4844 25.2861 28.3418 25.2793 20.3301L25.2588 8.30566L25.1016 7.90918C24.7871 7.13672 24.1445 6.53515 23.3516 6.26855C23.0439 6.15918 22.2441 6.15234 14.3623 6.15918C6.38477 6.15918 5.68066 6.17285 5.36621 6.27539ZM22.8936 8.16211C22.9961 8.2168 23.1465 8.35352 23.2148 8.45605C23.3379 8.64062 23.3447 8.97559 23.3447 20.542C23.3447 31.7939 23.3379 32.4502 23.2217 32.6279C23.1602 32.7305 23.0234 32.8672 22.9209 32.9287C22.7432 33.0449 22.251 33.0518 14.4238 33.0518C5.43457 33.0518 5.81738 33.0654 5.55762 32.6826C5.44141 32.5117 5.43457 31.9375 5.41406 20.7061C5.40039 11.3545 5.41406 8.8457 5.48242 8.64062C5.53711 8.47656 5.66016 8.31934 5.80371 8.22363L6.03613 8.0664H14.3691C21.5127 8.0664 22.7295 8.08008 22.8936 8.16211Z" />
                   </svg>
                   <img class="done" src="./img/done.svg" alt="Done">
-                </span>
+                </button>
               </div>
               <div class="calc-title-bottom-wrap">
                 <h5 class="calc-title-bottom">
@@ -194,11 +189,9 @@
           </div>
         </div>
       </section>
-
       <section class="section__banner">
         <div class="banner__wrap banner-black"></div>
       </section>
-
       <section class="section__video section-padding">
         <div class="container d-flex">
           <div class="video__container">
@@ -217,7 +210,6 @@
         </div>
       </section>
     </main>
-
     <footer class="footer">
       <div class="footer__row d-flex">
         <div class="footer__logo">
@@ -234,8 +226,7 @@
       </div>
     </footer>
   </div>
-
-  <script src="./js/app.js"></script>
+  <script src="./js/app.min.js"></script>
 </body>
 
 </html>
